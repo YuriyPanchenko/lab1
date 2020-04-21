@@ -1,16 +1,15 @@
-class SoldTicket extends Ticket{
+const Passenger = require("./Passenger.js");
+const Ticket = require("./Ticket.js");
+
+//const SoldTicket = require("./SoldTicket.js");
+
+class SoldTicket{
 
   constructor (options) {
-    super(options);
-    this.pass_name = options.pass_name; // ticket owner name
-    this.pass_id = options.pass_id;
-    this.t_id = options.t_id;
+    this.Passanger = options.Passanger; // ticket owner name
+    this.Ticket = options.Ticket;
   }
 
-  change_train(new_train_id){
-    this.train_id = new_train_id;
-    return sold_tickets;
-  }
 
 
 }

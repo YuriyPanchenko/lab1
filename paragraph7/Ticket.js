@@ -1,8 +1,10 @@
+const Train = require("./Train.js");
 class Ticket {
 
   constructor (options) {
-    this.train_id = options.train_id;
-    // this.number = options.number; //ticket id
+    this.Train = options.Train;
+    this.place = options.place;
+    this.vagon = options.vagon;
     this.is_sold = options.is_sold;
   }
 }

@@ -5,7 +5,11 @@ class Train {
     this.direction = options.direction;
     this.vagons = options.vagons;
   }
-
+    /*tostring(){
+    return "Train {" + "id = " + this.id+
+        ", direction = " + this.direction+
+        ", vagons = "+ this.vagons + "; "
+    }*/
 }
 
 module.exports = Train;
